@@ -1,0 +1,296 @@
+/* Colors
+Red Primary: #B2192D;
+Rich Black: #0A1128;
+Blue:#022B3A;
+Japanese Carmine: #9B363A;
+Eggshell: #EEF4D4;
+
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+/* Navbar container */
+.navbar-container{
+    padding: 0;
+    max-height:75px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.bg-light{
+    background-color: rgba(238, 244, 212, 0.85) !important;
+    
+}
+
+/* Navbar Brand */
+.navbar-brand{
+    margin-left: 100px;
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: bold;
+    color: #0A1128;
+}
+
+.navbar-brand span{
+    color: #B2192D;
+}
+
+/* Navbar Items */
+.nav-item{
+    font-size: 19px;
+    font-family: Quicksand;
+    margin-right: 30px;
+    
+}
+
+.nav-item a:not(:last-child)::after{
+    
+    color: #0A1128 !important;
+}
+
+#navbarNav{
+    margin-right: 50px;
+}
+
+
+/* Button design */
+.page-button{
+    padding: 9px 36px 9px 36px !important;
+    background-color: #B2192D;
+    border-radius: 20px;
+    color: #fff !important;
+    
+}
+
+/* Page Header */
+#page-header-id{
+    height: 85vh auto;
+    background-color: #FBFBFB;
+}
+
+.header-content-column{
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0;
+    
+}
+.header-content{
+    margin-top: 100px;
+    width: 455px;
+}
+
+.header-content h1{
+    font-family: Quicksand;
+    font-size: 38px;
+    color: #B2192D;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.header-content p{
+    line-height: 25px;
+    font-family: Quicksand;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.header-content a{
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 19px;
+}
+
+/* Header Image */
+.image-content{
+    margin-top: 150px;
+    width: 455px;
+    height: 457px;
+    background-image: url(../assets/Stripe.png);
+}
+
+#learn-section-id{
+    height: auto;
+    background-color: #B2192D;
+}
+
+#learn-section-id h1{
+    margin-top: 50px;
+    margin-left: 16px;
+    padding-bottom: 50px;
+    font-family: Quicksand;
+    font-size: 38px;
+    color: #EEF4D4;
+    font-weight: bold;
+}
+
+.curriculum-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.curriculum-icon h2{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: bold;
+    color: #EEF4D4;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.curriculum-icon p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    font-family: Quicksand;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+/* Curriculum content */
+.curriculum-container{
+    background-color: #EEF4D4;
+    padding-bottom: 100px;
+}
+.curriculum-content-column{
+    display: flex;
+    justify-content: center;
+}
+.curriculum-content{
+    margin-top: 20vh;
+    width: 370px;
+    
+}
+
+.curriculum-content h1{
+    font-family: Quicksand;
+    font-size: 38px;
+    color: #B2192D;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.curriculum-content p{
+    line-height: 25px;
+    font-family: Quicksand;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.curriculum-content a{
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 19px;
+}
+
+/*  Curriculim Image */
+.imagebackground{
+    height: 500px;
+    width:500px;
+    background-image: url(../assets/curriculum.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border-radius: 228px 228px;
+    
+}
+.image-background-column{
+    display: flex;
+    justify-content: center;
+}
+/* .............................................. */
+.sign-container{
+    height: 75vh;
+    
+}
+.sign-image-background-column{
+    display: flex;
+    justify-content: center;
+    margin-left:40px;
+}
+
+.sign-imagebackground{
+    align-items: center;
+    height: 500px;
+    width:500px;
+    background: url(../assets/signup.png) center center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+.sign-content{
+    margin-top:150px;
+    max-width: 455px;
+}
+
+.sign-content h1{
+    font-family: Quicksand;
+    font-size: 38px;
+    color: #B2192D;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sign-content p{
+    line-height: 25px;
+    font-family: Quicksand;
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.sign-content form input{
+    min-width: 60%;
+    margin-right: 10px;
+    background-color: #EEF4D4;
+    color: #0A1128;
+    font-weight: bold;
+}
+
+.sign-content form button,.sign-content form button:hover{
+    padding: 9px 36px 9px 36px !important;
+    background-color: #B2192D;
+    border-radius: 20px;
+    color: #fff !important;
+    font-family: Quicksand;
+    border:none;
+}
+
+@media (max-width: 576px) {  
+    
+    .header-content{
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .header-content h1{
+        font-family: Quicksand;
+        font-size: 30px;
+        color: #B2192D;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    #learn-section-id h1{
+        font-size: 30px;
+    }
+    .sign-content,.curriculum-content{
+        margin-top: 40px;
+        padding: 20px;
+    }
+    .sign-content h1,.curriculum-content h1{
+        font-size: 30px;
+    }
+    .sign-content form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sign-content form input{
+        margin-bottom: 20px;
+    }
+    
+}
+
